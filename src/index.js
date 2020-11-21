@@ -9,5 +9,5 @@ const createNewTask = event => {
   const newTask = document.createElement("li");
   newTask.innerText = newTaskDescription.value;
   document.getElementById("tasks").appendChild(newTask);
-  //event.target.reset();
+  event.target.reset();
 };
