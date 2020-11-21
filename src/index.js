@@ -1,6 +1,5 @@
 document.addEventListener("DOMContentLoaded", () => {
-  const newTaskForm = document.getElementById("create-task-form");
-  newTaskForm.addEventListener("submit", createNewTask);
+  document.getElementById("create-task-form").addEventListener("submit", createNewTask);
 });
 
 const createNewTask = event => {
